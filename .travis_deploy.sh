@@ -3,7 +3,7 @@
 # Target Variables
 TARGET_REPO_SLUG=ECell-IITK/ecell-production
 TARGET_BRANCH=master
-TARGET_BASE_DIRECTORY="ca"
+TARGET_BASE_DIRECTORY="startup"
 BUILD_TAG=CAMASTER
 # Directories not to clean up
 KEEP_DIRECTORIES=()

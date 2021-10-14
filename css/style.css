@@ -52,9 +52,8 @@ body {
 ol,
 ul {
   list-style: none;
-  font-family: "raleway-heavy", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-family: "Poppins";
+  font-size: 18px;
 }
 
 blockquote,
@@ -127,8 +126,8 @@ Responsive media queries
 }
 
 .navbar-default .navbar-nav > li > a {
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: normal;
   color: #fff;
   outline: none;
 }
@@ -147,52 +146,32 @@ Responsive media queries
 }
 
 
-.grid-container {
-  display: grid;
-  grid-gap: 10px;
-  background-color: #30326B;
-  padding: 10px;
-  border-radius: 15px;
-  height: 5%;
-  padding-bottom: 5px;
-}
-.grid-item {
-  background-color: #30326B;
-  text-align: center;
-  padding: 5px;  
-  font-family: "raleway-heavy",sans-serif;
-  border-radius: 20px;
+.learn-more {
+  font-size:24px;
 }
 
-.item1 {
-  color: #ffffff;
-  font-family: sans-serif;
-  grid-column: 1 / span 2;
-  grid-row: 1;
-  text-align: left;
-  font-size: 22px;
-  padding-left: 20px;
-  vertical-align: middle;
-  align-content: center;
+.image-head {
+  position: absolute;
+  width: 700px;
+  height: 670px;
+  left: 720px;
+  top: 130px;
 }
 
-.item2 {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-  border-radius: 20px;
-  vertical-align: middle;
-  font-size: 25px;
-  font-weight: lighter;
-  align-content: center;
-  vertical-align: middle;
-  transform: translate(-5px,5px);
+#img-head-bottom {
+  position: absolute;
+  width: 420px;
+  height: 85px;
+  left: 15px;
+  top: 680px;
 }
 
 .button.yellow-blue {
-  background-color: #eab543;
-  color: #30336b;
-  font-family: "raleway-heavy";
-  float: right;
+  background-color: #3565D9;
+  color:white;
+  font-family: "Poppins";
+  float: left;
+  margin-left:120px;
   border-radius: 5px;
   padding: 10px;
   padding-left: 30px;
@@ -200,13 +179,13 @@ Responsive media queries
 }
 
 .button.yellow-blue:hover {
-  background-color: #30336b;
+  background-color: #3565D9;
   color: #eab543;
 }
 
 @media (max-width: 768px) {
   .navbar-collapse {
-    background: rgba(48, 51, 107, 0.8);
+    background: #3565D9;
   }
   .square-box {
     min-height: 300px !important;
@@ -215,8 +194,8 @@ Responsive media queries
 }
 
 .top-nav-collapse {
-  padding: 0;
-  background: rgba(48, 51, 107, 1);
+  padding: 10px;;
+  background: #3565D9;
 }
 
 .square-shadow {
@@ -236,18 +215,17 @@ Responsive media queries
   /* width: 320px; */
   margin-bottom: 50px;
   border-radius: 19px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .whyapply {
-  background-color: #E7A94D;
+  background-color: white;
   padding: 30px 30px 30px 30px;
   min-height: 350px;
   width: 320px;
 }
 
 .square-shadow-left {
-  background-color: #30326b;
+  background-color: #3565D9;
   width: fit-content;
   /* box-shadow: 10px 10px RGBA(0, 0, 0, 0.3);  */
   display: inline-block;
@@ -272,13 +250,25 @@ Responsive media queries
 }
 
 .banner-text h2 {
-  font-size: 60px;
+  font-size: 56px;
   color: #3565D9;
   -webkit-background-clip: text;
+  margin-left:120px;
   /* font-family: 'Questrial', sans-serif; */
   font-family: "Poppins";
   font-weight: 600;
-  text-transform: uppercase;
+}
+
+.banner-text h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  width: 462px;
+  height: 96px;
+  margin-left:120px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1E1E1E;
 }
 
 .banner-text h3 {
@@ -286,10 +276,6 @@ Responsive media queries
   font-weight: 300;
   font-family: "raleway-heavy", serif;
   text-transform: uppercase;
-}
-
-.banner-text h2 span {
-  font-family: "Satisfy", cursive;
 }
 
 .title-box {
@@ -326,16 +312,17 @@ Responsive media queries
 }
 
 #about {
-  background-color: white;
-  min-height: 100vh;
+  background-color: #F6F6F6;
+  min-height: 70vh;
   padding-top: 100px;
   margin-bottom: 0px;
+  margin-top: 120px;
 }
 
 /* WhyCA section */
 
 #whyca {
-  background-color: #fbb64a;
+  background-color: white;
   min-height: 100vh;
   padding-top: 100px;
   margin-bottom: -3px;
@@ -377,7 +364,7 @@ Responsive media queries
 }
 
 #responsibilities h3 {
-  color: #30326b;
+  color: #3565D9;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -417,7 +404,7 @@ Responsive media queries
 }
 
 #contact h4 {
-  color: #30326b;
+  color: #3565D9;
   letter-spacing: 10px;
 }
 #contact h4 a {
@@ -540,7 +527,7 @@ Responsive media queries
 
 #apply-now {
   min-height: 65vh;
-  background: #fbb64a;
+  background: #F6F6F6;
   padding-top: 100px;
   padding-bottom: 100px;
   font-family: "Montserrat", sans-serif;
@@ -561,6 +548,51 @@ Responsive media queries
 #apply-now a {
   display: inline-block;
   width: 22%;
+  height: 61px;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  background-color: #3565D9;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#apply-now a:hover {
+  color: #fbb64a;
+  cursor: pointer;
+}
+
+#service-partner {
+  min-height: 65vh;
+  background: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  color: #30326b;
+}
+#service-partner h3 {
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#service-partner a {
+  display: inline-block;
+  width: 22%;
   text-align: center;
   color: #ffffff;
   font-size: 27px;
@@ -575,7 +607,7 @@ Responsive media queries
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#apply-now a:hover {
+#service-partner a:hover {
   color: #fbb64a;
   cursor: pointer;
 }
@@ -583,7 +615,7 @@ Responsive media queries
 /*footer*/
 
 footer {
-  background-color: #30326b;
+  background-color: #3565D9;
   color: #ffffff;
   padding-top: 33px;
   padding-bottom: 75px;
@@ -633,14 +665,29 @@ footer a i {
   transform: translate(-130px,-17px);
 }
 
+#about-head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  margin: auto;
+  margin-bottom:20px;
+}
+
 .about-text {
-  color: #30326b;
+  color: #1E1E1E;
+  width: 720px;
+  height: 140px;
   font-size: small;
-  line-height: 15px;
-  font-family: "Montserrat", sans-serif;
-  text-align: left;
-  line-height: 20px;
-  font-size: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  line-height: 24px;
+  margin: auto;
+  font-size: 16px;
 }
 
 #about-text-2 {

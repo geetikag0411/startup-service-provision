@@ -498,7 +498,7 @@ Responsive media queries
 
 #img-mail {
   width: 25vw;
-  min-width: 300px;
+  min-width: 150px;
   object-fit: contain;
   margin-bottom: 0;
 }
@@ -578,11 +578,12 @@ input {
 .service-partner p{
   color:white;
   line-height: 24px;
+  padding-right:100px;
+  font-size:16px;
 }
 
 .partner-img {
-  width: 55vw;
-  min-width: 250px;
+  width: 45vw;
   object-fit: contain;
 }
 
@@ -666,7 +667,7 @@ footer a i {
 }
 
 #img-ecell-footer {
-  width: 20vw;
+  width: 12vw;
   object-fit: contain;
 }
 
@@ -806,7 +807,7 @@ Responsive media queries
     display: inline-block;
   }
   .header {
-    background-color: #30336b;
+    background-color: white;
   }
   .display-sm {
     display: inline-block;
@@ -822,9 +823,22 @@ Responsive media queries
   }
   .banner-text h2 {
     font-size: 36px;
+    font-weight:600;
+    position:relative;
+    left:-5vw;
   }
-  .banner-text h3 {
+  .banner-text h5 {
     font-size: 20px;
+    margin:auto;
+    position:relative;
+    left:-5vw;
+    width:90vw;
+    line-height: 22px;
+    text-align:center;
+  }
+  #about-head {
+    font-size:24px;
+    margin-bottom:0;
   }
   .about-text {
     text-align: left;
@@ -837,6 +851,12 @@ Responsive media queries
   .square-box {
     padding: 20px;
     min-height: 300px;
+  }
+  .banner-text h5{
+    font-size:16px;
+  }
+  .banner-text h2{
+    font-size:36px;
   }
   #osp-h1 {
     /* position: relative;
@@ -852,6 +872,7 @@ Responsive media queries
     max-width: 100%;
   }
   #apply-now {
+    flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -876,17 +897,158 @@ Responsive media queries
     min-height: 150px !important;
   }
   #apply-now a {
-    width: 60%;
+    width: 50%;
+    padding:5vw;
+    font-size:14px;
   }
   #responsibilities h1 {
     font-size: 19px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
   }
+  #contact {
+    height:110vh;
+    align-items: flex-start;
+  }
   #contact h1 {
     font-size: 19px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+  }
+  #img-about {
+    display:none;
+  }
+  #img-head-right {
+    display:none;
+  }
+  #img-head-bottom {
+    display:none;
+  }
+  .learn-more {
+    display:none;
+  }
+  .image-head {
+    position:absolute;
+    top:45vh;
+    left:17vw;
+    height:65vh;
+    width:79vw;
+  }
+  .square-box {
+    width:100vw;
+    margin:auto;
+  }
+  .landing h5{
+    padding:0 !important;
+  }
+  #services {
+    flex-direction: column;
+    width:100%;
+  }
+  .service-partner {
+    flex-direction: column;
+    height: 165vh;
+    width: 85%;
+  }
+  .service-partner p{
+    padding-right:0;
+    font-size: 12px;
+  }
+  .osp-website {
+    position:relative;
+    top:95vh;
+    font-size:14px;
+  }
+  .right {
+    position: relative;
+    top: -25vh;
+    margin-left:0 !important;
+  }
+  .service-partner h4{
+    font-size:14px;
+  }
+  .service-partner h5{
+    font-size:12px;
+  }
+  div.left {
+    padding:0 !important;
+  }
+  .partner-img {
+    width: 64vw;
+  }
+  .service-list li{
+    margin-top:3vh;
+  }
+  #img-iitk {
+    margin:auto;
+    width:45vw;
+  }
+  #apply-now h5{
+    text-align: center;
+    margin:auto;
+    font-size: 18px;
+    line-height:26px;
+    padding-top:5vh;
+    padding-bottom:4vh;
+  }
+  #apply-now .text {
+    margin:0;
+  }
+  #apply-now button{
+    width:65vw;
+    margin:auto;
+  }
+  #contact h2 {
+    font-size:24px;
+  }
+  #contact h2, #contact h4, #contact h5{
+    width:80vw !important;
+    padding-right:10px;
+  }
+  #contact h5{
+    font-size:12px;
+  }
+  .form-button img{
+    display:none;
+  }
+  .form-button {
+    width:20vw;
+    margin-right:10px;
+  }
+  #contact div{
+    width:50vw;
+    margin-right:10px;
+  }
+  #img-mail{
+    position:absolute;
+    top:700vh;
+    left:24vw;
+    height:55vh;
+    width:52vw;
+  }
+  #osp-head{
+    font-size:24px;
+  }
+  #img-ecell-footer {
+    width:40vw;
+    margin:auto;
+  }
+  footer{
+    flex-direction: column;
+  }
+  footer h3{
+    font-size:14px;
+    width:90vw;
+  }
+  footer h4 {
+    width:100vw;
+  }
+  .footer-icons {
+    font-size:14px;
+  }
+  .footer-icons img{
+    display:inline-block;
+    margin:2vh;
   }
 }
 

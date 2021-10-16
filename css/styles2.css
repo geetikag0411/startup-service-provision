@@ -29,7 +29,7 @@
   }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 778px) {
   .hidden-large{
     display: none;
   }
